@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Operators">
+      <UniqueIdentifier>{2f9d9437-8c13-47bd-ac5c-7d5c002a3094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{ee5318ef-c994-41f9-8d56-4cc3f64dca01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{d5470e40-5db9-4225-bc83-88b82253b4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Operators">
+      <UniqueIdentifier>{cf94f5ca-1828-4935-8f8a-c9a23fa38af6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateCompiled.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateNonCompiled.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateRunning.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="DecreaseValue.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="DecreaseIndex.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseIndex.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseValue.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenLoopBracket.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowCharacter.cpp">
+      <Filter>Source Files\Operators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operator.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowCharacter.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenLoopBracket.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreaseValue.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreaseIndex.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="DecreaseValue.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="DecreaseIndex.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="StateCompiled.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateNonCompiled.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateRunning.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

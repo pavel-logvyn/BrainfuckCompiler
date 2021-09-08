@@ -1,0 +1,20 @@
+#pragma once
+#include <iostream>
+#include <string>
+#include <queue>
+#include "functions.h"
+#include "Operator.h"
+#include "Storage.h"
+#include "Compiler.h"
+#include "Context.h"
+#include "State.h"
+#include "DecreaseIndex.h"
+#include "IncreaseIndex.h"
+#include "DecreaseValue.h"
+#include "IncreaseValue.h"
+#include "OpenLoopBracket.h"
+#include "ShowCharacter.h"
+#include "StateCompiled.h"
+#include "StateNonCompiled.h"
+#include "StateRunning.h"
+using namespace std;

@@ -1,0 +1,14 @@
+﻿  main.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(59,40): error C2061: syntax error: identifier 'Compiler'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(66,14): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(66,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(66,24): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(70,9): error C2065: 'compiler_': undeclared identifier
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(70,25): error C2061: syntax error: identifier 'Compiler'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(74,16): error C2065: 'compiler_': undeclared identifier
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(74,1): error C2541: 'delete': cannot delete objects that are not pointers
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(85,39): error C2065: 'compiler_': undeclared identifier
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(96,32): error C2061: syntax error: identifier 'Compiler'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(97,9): error C2065: 'compiler': undeclared identifier
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(108,32): error C2061: syntax error: identifier 'Compiler'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(120,32): error C2061: syntax error: identifier 'Compiler'
