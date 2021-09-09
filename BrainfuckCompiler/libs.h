@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <queue>
+#include <list>
 #include "functions.h"
 #include "Operator.h"
 #include "Storage.h"
@@ -17,4 +17,6 @@
 #include "StateCompiled.h"
 #include "StateNonCompiled.h"
 #include "StateRunning.h"
+#include <exception>
+#include <typeinfo>
 using namespace std;

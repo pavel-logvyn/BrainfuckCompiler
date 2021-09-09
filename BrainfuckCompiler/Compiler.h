@@ -4,8 +4,9 @@ class Compiler {
 private:
     string input;
     Storage* storage_;
-    queue<Operator> compiledProgram;
+    list<Operator>* compiledProgram;
 public:
-    Compiler(string input_, Storage& storage) : input(input_), storage_(&storage) {}
-    void compile();
+    Compiler(string input_, Storage& storage, list<Operator>& listOfOperations);
+    ~Compiler();
+    bool compile();
 };

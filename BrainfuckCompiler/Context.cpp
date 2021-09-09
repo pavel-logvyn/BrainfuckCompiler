@@ -2,7 +2,8 @@
 class Context {
 private:
     State* state_;
-    Storage* storage_;
+    Storage* storage_ = new Storage();
+    list<Operator>* listOfOperations = new list<Operator>;
 public:
     Context(State* state) : state_(nullptr) {
         this->TransitionTo(state);
@@ -10,9 +11,12 @@ public:
     ~Context() {
         delete state_;
         delete storage_;
+        delete listOfOperations;
     }
     void TransitionTo(State* state) {
+#ifdef _DEBUG
         std::cout << "Context: Transition to " << typeid(*state).name() << ".\n";
+#endif
         if (this->state_ != nullptr) {
             delete this->state_;
         }
@@ -20,12 +24,12 @@ public:
         this->state_->set_context(this);
     }
     void RequestCompile(string input) {
-        this->state_->Compile(input, *storage_);
+        this->state_->Compile(input, *storage_, *listOfOperations);
     }
     void RequestRun() {
-        this->state_->Run();
+        this->state_->Run(*listOfOperations);
     }
     void RequestClean() {
-        this->state_->Clean();
+        this->state_->Clean(*listOfOperations);
     }
 };

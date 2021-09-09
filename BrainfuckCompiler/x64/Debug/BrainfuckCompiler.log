@@ -1,0 +1,471 @@
+﻿  Compiler.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Compiler.cpp(2,16): error C2011: 'Compiler': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Compiler.h(3): message : see declaration of 'Compiler'
+  Context.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.cpp(2,15): error C2011: 'Context': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(3): message : see declaration of 'Context'
+  DecreaseIndex.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseIndex.cpp(2,21): error C2011: 'DecreaseIndex': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseIndex.h(3): message : see declaration of 'DecreaseIndex'
+  DecreaseValue.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.cpp(2,21): error C2011: 'DecreaseValue': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(3): message : see declaration of 'DecreaseValue'
+  functions.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\functions.cpp(2,78): error C2572: 'build': redefinition of default argument: parameter 1
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\functions.h(3): message : see declaration of 'build'
+  IncreaseIndex.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseIndex.cpp(2,21): error C2011: 'IncreaseIndex': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseIndex.h(3): message : see declaration of 'IncreaseIndex'
+  IncreaseValue.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\DecreaseValue.h(8,5): error C3861: 'DecreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.cpp(2,21): error C2011: 'IncreaseValue': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3): message : see declaration of 'IncreaseValue'
+  libs.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+  main.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(5,57): error C2664: 'Context::Context(State *)': cannot convert argument 1 from 'StateNonCompiled *' to 'State *'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\main.cpp(5,36): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(9,5): message : see declaration of 'Context::Context'
+  OpenLoopBracket.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(2,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(2,41): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(3,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(5,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(7,32): error C2143: syntax error: missing ';' before '{'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,21): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,39): error C2275: 'std::string': illegal use of this type as an expression
+G:\visual studio 2019\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : see declaration of 'std::string'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,46): error C2146: syntax error: missing ')' before identifier 'input'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,20): error C2440: '<function-style-cast>': cannot convert from 'std::string' to 'OpenLoopBracket'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,20): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,46): error C2146: syntax error: missing ';' before identifier 'input'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,53): error C2062: type 'int' unexpected
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,20): error C2059: syntax error: ')'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.cpp(9,80): error C2143: syntax error: missing ';' before '{'
+  ShowCharacter.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\ShowCharacter.cpp(2,21): error C2011: 'ShowCharacter': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\ShowCharacter.h(3): message : see declaration of 'ShowCharacter'
+  State.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(5,10): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(5,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(5,18): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(9,13): error C2061: syntax error: identifier 'State'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Context.h(11,23): error C2061: syntax error: identifier 'State'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.cpp(2,13): error C2011: 'State': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(3): message : see declaration of 'State'
+  StateCompiled.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.cpp(2,21): error C2011: 'StateCompiled': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3): message : see declaration of 'StateCompiled'
+  StateNonCompiled.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3,35): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(5,10): error C3668: 'StateRunning::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(6,10): error C3668: 'StateRunning::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(7,10): error C3668: 'StateRunning::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(8,10): error C3668: 'StateRunning::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.cpp(2,24): error C2011: 'StateNonCompiled': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3): message : see declaration of 'StateNonCompiled'
+  StateRunning.cpp
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(3,39): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(5,10): error C3668: 'StateNonCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(6,10): error C3668: 'StateNonCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(7,10): error C3668: 'StateNonCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateNonCompiled.h(8,10): error C3668: 'StateNonCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(3,36): error C2504: 'State': base class undefined
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(5,10): error C3668: 'StateCompiled::Compile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(6,10): error C3668: 'StateCompiled::ReCompile': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(7,10): error C3668: 'StateCompiled::Run': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateCompiled.h(8,10): error C3668: 'StateCompiled::Clean': method with override specifier 'override' did not override any base class methods
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\OpenLoopBracket.h(9,79): error C2969: syntax error: ';': expected member function definition to end with '}'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,7): error C2059: syntax error: 'using namespace'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\libs.h(21,20): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,7): error C2059: syntax error: '<class-head>'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(3,39): error C2630: ';' found in what should be a comma-separated list
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(4,1): error C2059: syntax error: 'private'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(6,1): error C2059: syntax error: 'public'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,19): error C2275: 'Storage': illegal use of this type as an expression
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\Storage.h(2): message : see declaration of 'Storage'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\IncreaseValue.h(8,5): error C3861: 'IncreaseValue': identifier not found
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C2143: syntax error: missing ';' before '*'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(5,22): error C2238: unexpected token(s) preceding ';'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\State.h(8,22): error C2061: syntax error: identifier 'Context'
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.cpp(2,20): error C2011: 'StateRunning': 'class' type redefinition
+G:\visual studio projects\BrainfuckCompiler\BrainfuckCompiler\StateRunning.h(3): message : see declaration of 'StateRunning'
+  Generating Code...
